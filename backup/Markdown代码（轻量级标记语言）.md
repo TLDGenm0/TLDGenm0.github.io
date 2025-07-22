@@ -22,6 +22,11 @@
 
 $$ S = \pi r^2 $$
 
+表格为：表头加格式
+|姓名|性别|年龄|
+|:-|-:|:-:|
+|左对齐|右对齐|居中对齐|
+
 `两个反引号为代码块`
 ```csharp
 using System;
@@ -34,4 +39,8 @@ class Program {
 ```
 
 ![Image](https://github.com/user-attachments/assets/fc1009b6-1a11-45cd-b9f7-63952b4fea51)
-$$ S = \pi r^2 $$
+
+脚注：
+绊爱[^虚拟主播]
+
+[^虚拟主播]:第一个虚拟主播
