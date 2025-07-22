@@ -19,7 +19,9 @@
 - [x] 第二件事
 
 数学公式用美元符号latex(如二次函数求根公式)
-$$ x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$
+$$
+x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+$$
 
 `两个反引号为代码块`
 ```csharp
@@ -33,3 +35,4 @@ class Program {
 ```
 
 ![Image](https://github.com/user-attachments/assets/fc1009b6-1a11-45cd-b9f7-63952b4fea51)
+$$ S = \pi r^2 $$
