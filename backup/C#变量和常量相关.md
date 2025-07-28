@@ -39,3 +39,7 @@ int b = 2, c = 3,  d = 4;//声明多个变量
 
 - Main和print在C#中不属于关键字，Main为主函数名称，print不属于C#关键字
 
+# 常量
+- 常量的申明：
+- const 变量类型 变量名 = 变量值;
+`const float PI = 3.1415926;`
