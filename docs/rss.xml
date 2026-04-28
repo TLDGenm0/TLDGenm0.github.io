@@ -1,2 +1,101 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>C#学习博客</title><link>https://TLDGenm0.github.io</link><description>记录了C#知识点</description><copyright>C#学习博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://th.bing.com/th/id/OIP.thiViWUEUFnYLr_ipQFFZAAAAA?w=276&amp;h=184&amp;c=7&amp;r=0&amp;o=7&amp;dpr=1.5&amp;pid=1.7&amp;rm=3</url><title>avatar</title><link>https://TLDGenm0.github.io</link></image><lastBuildDate>Mon, 27 Apr 2026 17:12:56 +0000</lastBuildDate><managingEditor>C#学习博客</managingEditor><ttl>60</ttl><webMaster>C#学习博客</webMaster></channel></rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>C#学习博客</title><link>https://TLDGenm0.github.io</link><description>记录了C#知识点</description><copyright>C#学习博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://th.bing.com/th/id/OIP.thiViWUEUFnYLr_ipQFFZAAAAA?w=276&amp;h=184&amp;c=7&amp;r=0&amp;o=7&amp;dpr=1.5&amp;pid=1.7&amp;rm=3</url><title>avatar</title><link>https://TLDGenm0.github.io</link></image><lastBuildDate>Tue, 28 Apr 2026 17:26:27 +0000</lastBuildDate><managingEditor>C#学习博客</managingEditor><ttl>60</ttl><webMaster>C#学习博客</webMaster><item><title>C#变量和常量相关</title><link>https://TLDGenm0.github.io/post/C%23-bian-liang-he-chang-liang-xiang-guan.html</link><description># 变量
+## 创建项目
+```cs
+//引用命名空间
+using System;
+//命名空间
+namespace lesson_2变量
+{
+    //类
+    internal class Program
+    {
+        //主函数，程序主入口
+        static void Main(string[] args)
+        {
+            //函数语句块
+            Console.WriteLine('变量');
+            #region 折叠代码
+            //让我们编程时逻辑更加清晰，#region和#endregion将中间包裹的代码折叠
+            //本质是编辑器提供给我们的预处理指令，只会在编辑时有用
+            //代码发布后或者执行代码，它会自动被删除
+            #endregion
+        }
+    }
+}
+
+```
+
+## 变量的定义
+- 申明变量
+&gt; 变量类型 变量名 = 初始值;
+```cs
+int a = 1;
+int b = 2, c = 3,  d = 4;//声明多个变量
+```
+
+## 变量命名规则
+1.不能重名或者用关键字
+2.不能含有除下划线的特殊符号以及数字开头
+
+- Main和print在C#中不属于关键字，Main为主函数名称，print不属于C#关键字
+
+# 常量
+- 常量的申明：
+- const 变量类型 变量名 = 变量值;
+`const float PI = 3.1415926;`
+1. 必须初始化
+2. 不能被修改。</description><guid isPermaLink="true">https://TLDGenm0.github.io/post/C%23-bian-liang-he-chang-liang-xiang-guan.html</guid><pubDate>Tue, 22 Jul 2025 06:26:45 +0000</pubDate></item><item><title>markdown代码2</title><link>https://TLDGenm0.github.io/post/markdown-dai-ma-2.html</link><description># 横线
+### 链接
+[油管](https://www.youtube.com/feed/storefront)
+---
+### 引用链接，多次出现同一个链接
+[荒野乱斗][id],[supercell荒野乱斗][id],[brawlstars][id]
+[id]:https://supercell.com/en/games/brawlstars/
+URL:
+https://supercell.com/en/games/brawlstars/。</description><guid isPermaLink="true">https://TLDGenm0.github.io/post/markdown-dai-ma-2.html</guid><pubDate>Tue, 22 Jul 2025 03:05:54 +0000</pubDate></item><item><title>Markdown代码（轻量级标记语言）</title><link>https://TLDGenm0.github.io/post/Markdown-dai-ma-%EF%BC%88-qing-liang-ji-biao-ji-yu-yan-%EF%BC%89.html</link><description># #加空格为一级标题
+## ##加空格为二级标题
+### 三级（一共有六级标题）
+
+&gt;大于符号表示 这是一段引用
+
+有序列表用数字
+1.第一步
+2.第二步
+3.第三步
+无序列表用短横线或者星号
+- 横线1
+- 横线2
+* 星号1
+* 星号2
+
+-空格[空格]空格任务列表
+- [ ] 第一件事
+- [x] 第二件事
+
+数学公式用美元符号latex(如二次函数求根公式)
+
+$$ S = \pi r^2 $$
+
+表格为：表头加格式
+|姓名|性别|年龄|
+|:-|-:|:-:|
+|左对齐|右对齐|居中对齐|
+
+`两个反引号为代码块`
+```csharp
+using System;
+class Program {
+    static void Main() {
+        Console.WriteLine('Hello');
+        Console.Write('hello');
+    }
+}
+```
+
+![Image](https://github.com/user-attachments/assets/fc1009b6-1a11-45cd-b9f7-63952b4fea51)
+
+脚注：
+绊爱[^虚拟主播]
+
+[^虚拟主播]:第一个虚拟主播。</description><guid isPermaLink="true">https://TLDGenm0.github.io/post/Markdown-dai-ma-%EF%BC%88-qing-liang-ji-biao-ji-yu-yan-%EF%BC%89.html</guid><pubDate>Sat, 19 Jul 2025 06:36:00 +0000</pubDate></item></channel></rss>
